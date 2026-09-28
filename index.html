@@ -111,7 +111,7 @@ p{margin:0}
 @keyframes nudge{0%,90%,100%{transform:none}93%{transform:rotate(-1.5deg)}97%{transform:rotate(1.5deg)}}
 
 /* ───────── 禮物袋 ───────── */
-#s-hub{justify-content:flex-start;padding-top:calc(34px + var(--sat));padding-bottom:0}
+#s-hub{justify-content:flex-start;padding-top:calc(34px + var(--sat));padding-bottom:0;overflow-y:auto;overscroll-behavior:contain}
 #s-packing{justify-content:flex-start;padding-bottom:calc(14px + var(--sab))}
 #s-letter{justify-content:flex-start}
 #s-letter .note{flex:0 1 auto;min-height:0;display:flex;flex-direction:column}
@@ -148,7 +148,7 @@ p{margin:0}
 .week .d.today{box-shadow:0 0 0 2px var(--berry)}
 .week .d.today::after{content:"今天";position:absolute;left:50%;top:-10px;transform:translateX(-50%);background:var(--berry);color:#fff;font-size:9.5px;padding:1px 6px;border-radius:999px;white-space:nowrap}
 .week .d.past{opacity:.45}
-.game{margin-top:8px;position:relative;width:100%;flex:1 1 auto;min-height:190px;display:flex;flex-direction:column;padding-bottom:calc(4px + var(--sab));user-select:none;-webkit-user-select:none;touch-action:manipulation}
+.game{margin-top:8px;position:relative;width:100%;flex:1 1 auto;min-height:175px;display:flex;flex-direction:column;padding-bottom:calc(4px + var(--sab));user-select:none;-webkit-user-select:none;touch-action:manipulation}
 .game .bubble{position:relative;align-self:flex-start;z-index:3;max-width:230px;margin:0 0 6px 0;flex:none}
 .game .bubble::after{right:auto;left:18px;bottom:-8px;border:8px solid transparent;border-top-color:#fff;border-bottom:0}
 .gsky{position:relative;flex:1 1 auto;min-height:140px;overflow:hidden;border-radius:16px;background:linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,.45));cursor:pointer}
